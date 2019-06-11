@@ -1,0 +1,61 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  width: 100%;
+  background: #ff6600;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 30px;
+  text-align: left;
+  .title{
+    display: inline-block;
+    color: #000;
+    font-weight: 700;
+  }
+}
+
+.board-body {
+  background: #F6F6EF;
+  min-height: 100%;
+  height: auto;
+  padding-top: 10px;
+  .showMore-container {
+    margin: 20px;
+    &:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+  .news {
+    margin: 15px 0;
+    .heading {
+      margin: 0;
+      a {
+        color: #000;
+        font-size: 14px;
+      }
+      .url{
+        color: #828282;
+        font-size: 11px;
+        margin-left: 3px;
+      }
+    }
+    .score{
+      color: #828282;
+      font-size: 11px;
+      margin: 0;
+      display: inline-block;
+      margin-right: 5px;
+    }
+    .comments{
+      display: inline-block;
+      font-size: 11px;
+      a{
+        color: #828282;
+      }
+    }
+  }
+}
